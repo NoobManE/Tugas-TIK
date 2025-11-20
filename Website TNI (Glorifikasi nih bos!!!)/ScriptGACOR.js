@@ -35,7 +35,7 @@ dots.forEach((dot, index) => {
 // Auto slide setiap 5 detik
 let slideInterval = setInterval(() => {
     showSlide(currentSlide + 1);
-}, 50000);
+}, 5000);
 
 // Scroll halus untuk navigasi
 document.querySelectorAll('nav a').forEach(anchor => {
